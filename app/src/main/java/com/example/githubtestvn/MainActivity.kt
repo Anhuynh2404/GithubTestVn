@@ -37,6 +37,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun Test( modifier: Modifier = Modifier) {
+    Text(
+        text = "Test Github!",
+        modifier = modifier
+    )
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
