@@ -40,7 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun Test( modifier: Modifier = Modifier) {
     Text(
-        text = "Test Github!",
+        text = "Test Github!",git
         modifier = modifier
     )
 }
